@@ -8,11 +8,11 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @ServletComponentScan
 @SpringBootApplication
-public class DataSourceApplication.java {
+public class DataSourceApplication {
 
 
 	public static void main(String[] args) {
-		SpringApplication.run(DataSourceApplication.java.class, args);
+		SpringApplication.run(DataSourceApplication.class, args);
 	}
 
 
